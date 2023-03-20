@@ -1,0 +1,16 @@
+[package]
+name = "rust-cli-cryptor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.21.0"
+clap = { version = "4.1.8", features = ["derive", "cargo"] }
+openssl = "0.10.45"
+rust-crypto = "0.2.36"
+serde = { version = "1.0.157", features = ["derive"] }
+serde_json = "1.0.94"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
